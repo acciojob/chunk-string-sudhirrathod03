@@ -1,5 +1,6 @@
 function stringChop(str, size) {
   // your code here
+	  if (!str || size <= 0) return [];
 	 size = Number(size)
 	let res = []
 	for(let i=0;i<str.length; i+=size){
